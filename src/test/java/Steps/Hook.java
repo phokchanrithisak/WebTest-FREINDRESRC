@@ -27,8 +27,8 @@ public class Hook extends BaseUtil{
         /*
         * Configure the variables below
         * for example : change driverName to geckodriver
-        *               and change driver property to webdriver.gecko.driver
-        *               comment Chrome driver to run only firefox
+        *               and change driver property to webdriver.chrome.driver
+        *               comment firefox driver to run only chrome
         * NB:
         *   The two drivers given in src/test/Res are for macOS only
         *   For windows:
@@ -43,11 +43,10 @@ public class Hook extends BaseUtil{
         System.setProperty(driverProperty , fs.getAbsolutePath());
 
         /*
-        * Uncomment one of the driver below
+        * comment one of the driver below
         * */
         base.driver = new FirefoxDriver();
         base.driver = new ChromeDriver();
-
         /*
         * Implicit wait
         * */
