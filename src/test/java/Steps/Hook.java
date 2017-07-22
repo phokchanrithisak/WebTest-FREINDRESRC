@@ -29,6 +29,12 @@ public class Hook extends BaseUtil{
         * for example : change driverName to geckodriver
         *               and change driver property to webdriver.gecko.driver
         *               comment Chrome driver to run only firefox
+        * NB:
+        *   The two drivers given in src/test/Res are for macOS only
+        *   For windows:
+        *       Make sure to add extension .exe to driverName (e.g. driverName = "chromedriver.exe")
+        *       Do not forget to change the path of driver to src/test/Res/Windows
+        *       (e.g. fs = new File("src/test/Res/Windows", driverName);
         * */
         String driverName = "chromedriver";
         String driverProperty = "webdriver.chrome.driver";
