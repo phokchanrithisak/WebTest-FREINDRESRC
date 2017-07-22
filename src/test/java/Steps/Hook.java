@@ -36,8 +36,8 @@ public class Hook extends BaseUtil{
         *       Do not forget to change the path of driver to src/test/Res/Windows
         *       (e.g. fs = new File("src/test/Res/Windows", driverName);
         * */
-        String driverName = "chromedriver";
-        String driverProperty = "webdriver.chrome.driver";
+        String driverName = "geckodriver";
+        String driverProperty = "webdriver.gecko.driver";
         File fs = new File("src/test/Res", driverName);
         System.out.println("Opening Web Browser\n");
         System.setProperty(driverProperty , fs.getAbsolutePath());
