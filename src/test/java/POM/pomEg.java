@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 /**
- * Created by chhormchhatra on 7/22/17.
+ * Created by chhormchhatra from KEEN Virtual Company of KIT on 7/22/17.
  */
 
 public class pomEg {

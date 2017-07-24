@@ -11,7 +11,7 @@ import java.io.File;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by chhormchhatra on 7/22/17.
+ * Created by chhormchhatra from KEEN Virtual Company of KIT on 7/22/17.
  */
 
 public class Hook extends BaseUtil{
@@ -25,7 +25,7 @@ public class Hook extends BaseUtil{
     public void initializeBrowser(){
 
         /*
-        * Configure the variables below
+        * TODO Configure the variables below
         * for example : change driverName to geckodriver
         *               and change driver property to webdriver.chrome.driver
         *               comment firefox driver to run only chrome
@@ -33,8 +33,9 @@ public class Hook extends BaseUtil{
         *   The two drivers given in src/test/Res are for macOS only
         *   For windows:
         *       Make sure to add extension .exe to driverName (e.g. driverName = "chromedriver.exe")
-        *       Do not forget to change the path of driver to src/test/Res/Windows
-        *       (e.g. fs = new File("src/test/Res/Windows", driverName);
+        *       Do not forget to change the path of driver to src//test//Res//Windows
+        *       (e.g. fs = new File("src//test//Res//Windows", driverName);
+        *       NB : if double forward slashes do not work, try double backward slashes
         * */
         String driverName = "geckodriver";
         String driverProperty = "webdriver.gecko.driver";
@@ -43,7 +44,7 @@ public class Hook extends BaseUtil{
         System.setProperty(driverProperty , fs.getAbsolutePath());
 
         /*
-        * comment one of the driver below
+        * TODO comment one of the driver below
         * */
         base.driver = new FirefoxDriver();
         base.driver = new ChromeDriver();
