@@ -26,7 +26,7 @@ public class Hook extends BaseUtil{
 
         /*
         * TODO Configure the variables below
-        * for example : change driverName to geckodriver
+        * for example : change driverName to chromedriver
         *               and change driver property to webdriver.chrome.driver
         *               comment firefox driver to run only chrome
         * NB:
