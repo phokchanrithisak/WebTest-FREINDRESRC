@@ -12,7 +12,7 @@ By the help of [maven-cucumber-reporting](https://mvnrepository.com/artifact/net
 ### Prerequisite
 This WebTest template use [Cucumber](https://cucumber.io/) framework with [Gherkin](https://cucumber.io/docs/reference) to get the advantages of `.feature` files.
 - If you are not familiar with Gherkin, please refer <https://cucumber.io/docs/reference> for language concepts and its syntax.
-- Check your **Java JDK**, by run `java -v` in command prompt(Windows) or terminal(macOS). If you could see the version of java, then it has been installed, otherwise, please install it based on your operating system.**Make Sure you have set `JAVA_HOME` to `jdk` folder and `jdk\bin` to `PATH` (refer [here](https://maven.apache.org/install.html)).
+- Check your **Java JDK**, by run `java -version` in command prompt(Windows) or terminal(macOS). If you could see the version of java, then it has been installed, otherwise, please install it based on your operating system.**Make Sure you have set `JAVA_HOME` to `jdk` folder and `jdk\bin` to `PATH` (refer [here](https://maven.apache.org/install.html)).
 - Make sure that you have maven installed by run `mvn -v` in command prompt(Windows) or terminal(macOS). If you could see the version of maven, then it has been installed, otherwise, please install it based on your operating system. (refer [here](https://maven.apache.org/install.html))
 - IDE requirement is [Intellij Idea](https://www.jetbrains.com/idea/); either the Ultimate or the Community one would be fine.
 
